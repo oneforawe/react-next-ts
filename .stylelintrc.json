@@ -1,0 +1,24 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "selector-class-pattern": "^[a-z]+(-[a-z0-9]+)*$",
+    "value-keyword-case": "lower",
+    "declaration-property-value-no-unknown": true,
+    "rule-empty-line-before": null,
+    "custom-property-empty-line-before": null,
+    "media-feature-range-notation": "prefix"
+  },
+  "overrides": [
+    {
+      "files": [
+        "app/*.module.css",
+        "app/*.module.scss",
+        "app/**/*.module.css",
+        "app/**/*.module.scss"
+      ],
+      "rules": {
+        "selector-class-pattern": "^[a-z][A-Za-z0-9]*$"
+      }
+    }
+  ]
+}
