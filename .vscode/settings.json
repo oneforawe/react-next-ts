@@ -11,18 +11,9 @@
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
     "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.pylint": "never",
-      "source.fixAll.eslint": "never",
-      "source.fixAll.stylelint": "never",
-      "source.fixAll.stylefmt": "never",
-      "source.fixAll.prettier": "never",
-      "source.fixAll.shellcheck": "never",
-      "source.fixAll.markdownlint": "explicit",
-    },
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
   },
   "typescript.tsdk": "node_modules/typescript/lib",
@@ -32,7 +23,6 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.pylint": "never",
       "source.fixAll.stylelint": "explicit",
-      "source.fixAll.stylefmt": "never",
       "source.fixAll.prettier": "never",
       "source.fixAll.markdownlint": "never",
       "source.fixAll.shellcheck": "never",
@@ -43,25 +33,9 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "stylelint.validate": ["css", "scss"],
   "[css][scss]": {
-    // "editor.defaultFormatter": "Jota0222.multi-formatter",
     // "editor.defaultFormatter": "stylelint.vscode-stylelint",
-    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
-    // "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "multiFormatter.formatterList": [
-      // "stylelint.vscode-stylelint",
-      // "ronilaukkarinen.vscode-stylefmt",
-      "esbenp.prettier-vscode",
-    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.pylint": "never",
-      "source.fixAll.eslint": "never",
-      "source.fixAll.markdownlint": "never",
-      "source.fixAll.shellcheck": "never",
-      "source.fixAll.stylelint": "never",
-      "source.fixAll.stylefmt": "never",
-      "source.fixAll.prettier": "explicit",
-    },
   },
   "[python]": {
     "editor.tabSize": 4,
@@ -77,7 +51,6 @@
       "source.fixAll.pylint": "never",
       "source.fixAll.eslint": "never",
       "source.fixAll.stylelint": "never",
-      "source.fixAll.stylefmt": "never",
       "source.fixAll.prettier": "never",
       "source.fixAll.markdownlint": "never",
       "source.fixAll.shellcheck": "explicit",
