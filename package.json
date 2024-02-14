@@ -24,5 +24,14 @@
     "stylelint": "^16.2.1",
     "stylelint-config-standard-scss": "^13.0.0",
     "typescript": "^5"
+  },
+  "tsconfig": {
+    "extends": "./.config/tsconfig.json"
+  },
+  "eslintConfig": {
+    "extends": "./.config/.eslintrc.json"
+  },
+  "stylelint": {
+    "extends": "./.config/.stylelintrc.json"
   }
 }
