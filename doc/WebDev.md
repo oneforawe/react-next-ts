@@ -37,12 +37,12 @@ TODO: Rewrite this and sections below, with node version management options: nvm
 and pnpm.  We are choosing pnpm.
 
 * See what is already present.
-  * PowerShell  
-    `Get-Command nvm`  
-    `Get-Command pnpm`
   * Bash
     `command -V nvm`  
     `command -V pnpm`
+  * PowerShell  
+    `Get-Command nvm`  
+    `Get-Command pnpm`
 
 We'll use pnpm to as a node version manager.  If you have nvm ("node version
 manager") installed, you'll want to uninstall it.
