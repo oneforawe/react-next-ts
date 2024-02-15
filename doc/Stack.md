@@ -34,6 +34,12 @@ The main stack of technologies:
   registry)
 * Meta-Framework:
   [Next.js](https://nextjs.org/)
+  (no longer using the legacy
+  [create-react-app](https://legacy.reactjs.org/docs/create-a-new-react-app.html)
+  but
+  [create-next-app](https://nextjs.org/docs/pages/api-reference/create-next-app)
+  instead
+  )
 * Frontend Framework:
   [React.js](https://react.dev)
 * Editor/IDE:
