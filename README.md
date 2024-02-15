@@ -6,7 +6,8 @@ This repository is a template for
 [TypeScript](https://www.typescriptlang.org).
 
 See the [tech stack notes](./doc/Stack.md) for a fuller list of technologies
-used.
+used.  This repo is iterating from an
+[earlier version](https://github.com/oneforawe/react-ts) that didn't use Next.
 
 The purpose of this repo is:
 
