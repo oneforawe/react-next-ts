@@ -72,15 +72,8 @@ the project:
 
 This linting software is further implemented with specifications in the file
 `.vscode/settings.json` to indicate which linter/validator/formatter is to be
-used with each language and file type.  See those settings for more detail.  For
-example, you should see that we use:
-
-* JavaScript/TypeScript linting with [ESLint](https://eslint.org) and
-  [Stylistic](https://eslint.style/) (where stylistic is integrated in the
-  config file `.config/.eslintrc.json`)
-* CSS/SCSS linting with [Stylelint](https://stylelint.io) (validation) and
-  [Prettier](https://prettier.io/) (formatting)
-* JSON linting with [Prettier](https://prettier.io/)
+used with each language and file type.  See those settings for more detail, or
+see an overview [here](./Stack.md).
 
 The app source code originally showed errors once this linting infrastructure
 was put in place, and some of the errors were auto-fixed and some required manual
