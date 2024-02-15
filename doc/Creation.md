@@ -48,7 +48,11 @@ You can also see some help by executing `pnpm create next-app --help`
 * Create new typescript config.  
   `mv .\tsconfig.json .\tsconfig_copy.json`  
   `pnpm exec tsc --init`  
-  Combine newly generated tsconfig file with previous copy.
+  Combine newly generated tsconfig file with previous copy to yield a much
+  more informative commented file.
+* Add specification.
+  Add to `package.json` an `engines` property to specify appropriate node
+  versions.
 
 ## Linting
 
