@@ -32,16 +32,15 @@ The main stack of technologies:
   but still using the
   [npm](https://www.npmjs.com/)
   registry)
+* Frontend Framework:
+  [React.js](https://react.dev)
 * Meta-Framework:
-  [Next.js](https://nextjs.org/)
-  (no longer using the legacy
+  [Next.js](https://nextjs.org/)  
+  (and not using the legacy
   [create-react-app](https://legacy.reactjs.org/docs/create-a-new-react-app.html)
   but
   [create-next-app](https://nextjs.org/docs/pages/api-reference/create-next-app)
-  instead
-  )
-* Frontend Framework:
-  [React.js](https://react.dev)
+  instead)
 * Editor/IDE:
   [VSCode](https://code.visualstudio.com/) (Micosoft Visual Studio Code)
   with various
@@ -50,8 +49,8 @@ The main stack of technologies:
   * Markdown linting with
     [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
   * JavaScript/TypeScript linting with [ESLint](https://eslint.org) and
-    [Stylistic](https://eslint.style/) (where stylistic is integrated in the
-    config file `.config/.eslintrc.json`)
+    [Stylistic](https://eslint.style/)  
+    (where stylistic is integrated in the config file `.config/.eslintrc.json`)
   * CSS/SCSS linting with [Stylelint](https://stylelint.io) (validation) and
     [Prettier](https://prettier.io/) (formatting)
   * JSON linting with [Prettier](https://prettier.io/)
