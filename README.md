@@ -5,6 +5,9 @@ This repository is a template for
 [Next](https://nextjs.org/) and written in
 [TypeScript](https://www.typescriptlang.org).
 
+See the [tech stack notes](./doc/Stack.md) for a fuller list of technologies
+used.
+
 The purpose of this repo is:
 
 * to act as a template to easily start new projects without re-writing common
@@ -13,8 +16,8 @@ The purpose of this repo is:
   accomplish certain tasks (such as achieving robust file-line-ending control
   with the repo code and steps below, to avoid issues later in development), and
 * to demonstrate this particular approach and organization of code for any such
-  React TypeScript project, using a generic folder structure, typescript and
-  css/scss [code linting](./doc/Development.md) (geared for usage with
+  React TypeScript project, using a generic folder structure,
+  [code linting](./doc/Development.md) (geared for usage with
   [VSCode](https://code.visualstudio.com/)), and optional features such as redux
   state management, helper hooks for cyclic state refreshing, services with
   external API calls, and so on.
