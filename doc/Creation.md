@@ -21,13 +21,13 @@ You can also see some help by executing `pnpm create next-app --help`
 * Enter repo.  
   `cd react-next-ts`
 * Confirm functionality.  
-  `pnpm run dev` and observe <http://localhost:3000>.
+  `pnpm run dev` and observe <http://localhost:3000>.  
   `pnpm run build` and observe any errors.
 * Remove errors.
-  * Edit.
+  * Edit.  
     Edit app source file (`layout.tsx`) to remove error involving `Inter`, a
     `next/font/google`.
-  * Add config.
+  * Add config.  
     Add a `.vscode/settings.json` file with the property-value pair  
     `"typescript.tsdk": "node_modules/typescript/lib"`  
     to fix a typescript error in tsconfig regarding `resolveJsonModule`.
@@ -60,9 +60,10 @@ You can also see some help by executing `pnpm create next-app --help`
 Automatic code-linting is implemented so fixes are applied automatically each
 time a file is saved.
 
-Some linting was already partly integrated from the project initialization
-(`eslint` and `eslint-config-next`) and with VSCode extensions installed.  Some
-other linting must be partly integrated with packages added to the project:
+Some linting was already partly integrated from the create-next-app project
+initialization (`eslint` and `eslint-config-next`) and with VSCode extensions
+installed.  Some other linting must be partly integrated with packages added to
+the project:
 
 * `pnpm add --save-dev @stylistic/eslint-plugin`
 * `pnpm add --save-dev stylelint`
@@ -81,8 +82,9 @@ example, you should see that we use:
   [Prettier](https://prettier.io/) (formatting)
 * JSON linting with [Prettier](https://prettier.io/)
 
-The app source code showed errors with this linting infrastructure in place, and
-some of the errors could be auto-fixed and some required manual fixing.
+The app source code originally showed errors once this linting infrastructure
+was put in place, and some of the errors were auto-fixed and some required manual
+fixing.
 
 ## Config Folder
 
@@ -91,8 +93,9 @@ folder -- to reduce the clutter at the root of the repo.  The config files that
 haven't been moved yet into the config folder seem to require default locations
 elsewhere, either at the root or in the `.vscode` folder.
 
-* modified: `.gitconfig`  
-  Added core properties and an include path
+* added: `.gitconfig`  
+  In the initialization process, added a git config file with core properties
+  and an include path
 
   ```(text)
   [core]
