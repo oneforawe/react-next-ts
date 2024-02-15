@@ -24,9 +24,9 @@ The purpose of this repo is:
 
 See the [development notes](./doc/Development.md) for tips on setting up the
 repo properly with VSCode and some linting details.  See the
-[web development](./doc/WebDev.md) notes for more general notes and elaboration
-on setup with pnpm and node.  And see the [creation notes](./doc/Creation.md)
-for details on how this repo was created and how to re-create it.
+[web dev notes](./doc/WebDev.md) for more general notes and elaboration on setup
+with pnpm and node.  And see the [creation notes](./doc/Creation.md) for details
+on how this repo was created and how to re-create it.
 
 ## Initial Readme Intro
 
