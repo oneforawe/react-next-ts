@@ -22,7 +22,7 @@
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
       "source.fixAll.pylint": "never",
-      "source.fixAll.stylelint": "explicit",
+      "source.fixAll.stylelint": "never",
       "source.fixAll.prettier": "never",
       "source.fixAll.markdownlint": "never",
       "source.fixAll.shellcheck": "never",
