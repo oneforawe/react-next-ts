@@ -44,13 +44,17 @@ and pnpm.  We are choosing pnpm.
     `Get-Command nvm`  
     `Get-Command pnpm`
 
-We'll use pnpm to as a node version manager.  If you have nvm ("node version
+We'll use pnpm as a node version manager.  If you have nvm ("node version
 manager") installed, you'll want to uninstall it.
 
-* If nvm is installed, uninstall it.  
+* If nvm is installed, uninstall it (along with its installed versions of Node).  
   For Windows (nvm-windows): see the github wiki for
   [uninstall instructions](https://github.com/coreybutler/nvm-windows/wiki#uninstall).
-* Install pnpm
+* If Node is installed independently, uninstall it.
+* [Install pnpm](https://pnpm.io/installation)  
+  For Windows, can install with a script directly.  
+  `iwr https://get.pnpm.io/install.ps1 -useb | iex`  
+  For GNU/Linux, can use a curl or wget command.
 * To uninstall pnpm, see [here](https://pnpm.io/uninstall).  
   To upgrade pnpm (to update pnpm itself), you may want to just uninstall it and
   install again. (I didn't find a simple universal upgrade command.)  
