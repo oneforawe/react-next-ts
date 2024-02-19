@@ -37,7 +37,7 @@ TODO: Rewrite this and sections below, with node version management options: nvm
 and pnpm.  We are choosing pnpm.
 
 * See what is already present.
-  * Bash
+  * Bash  
     `command -V nvm`  
     `command -V pnpm`
   * PowerShell  
@@ -61,10 +61,10 @@ manager") installed, you'll want to uninstall it.
   (If using nvm to manage Node instead of pnpm, and if using npm to
   global-install pnpm, you may be able to repeat the command
   `npm install -g pnpm` to upgrade pnpm.)
-* Familiarize
-  `pnpm help`
+* Familiarize  
+  `pnpm help`  
   `pnpm help create`
-* Install LTS Node
+* Install LTS Node  
   `pnpm env use --global lts`
 
 ### Node
