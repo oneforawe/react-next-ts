@@ -51,7 +51,7 @@ manager") installed, you'll want to uninstall it.
   For Windows (nvm-windows): see the github wiki for
   [uninstall instructions](https://github.com/coreybutler/nvm-windows/wiki#uninstall).
 * If Node is installed independently, uninstall it.
-* [Install pnpm](https://pnpm.io/installation)  
+* [Install pnpm](https://pnpm.io/installation) and restart the shell.  
   For Windows, can install with a script directly.  
   `iwr https://get.pnpm.io/install.ps1 -useb | iex`  
   For GNU/Linux, can use a curl or wget command.
@@ -63,7 +63,9 @@ manager") installed, you'll want to uninstall it.
   `npm install -g pnpm` to upgrade pnpm.)
 * Familiarize  
   `pnpm help`  
-  `pnpm help create`
+  `pnpm help env`  
+  `pnpm help create`  
+  `pnpm env list`
 * Install LTS Node  
   `pnpm env use --global lts`
 
